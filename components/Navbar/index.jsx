@@ -1,7 +1,24 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import NavStyle from "./style"
 
+
 const index = () => {
+  const [sticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setSticky(true);
+      }
+      else {
+        setSticky(false);
+      }
+    }
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    }
+  }, [])
   const navItems = (<>
     <li><a>Home</a></li>
     <li><a>Course</a></li>
@@ -10,9 +27,12 @@ const index = () => {
   </>);
 
   return (
-    <NavStyle className='nav-style shadow-sm'>
-      <div className="max-w-screen-2xl container mx-auto">
-        <div className="navbar bg-base-100 px-0 ">
+    <NavStyle className={`nav-style shadow-sm bg-base-100
+    ${sticky
+        ? "sticky ease-in-out bg-base-200 transition-all"
+        : ""}`}>
+      <div className="max-w-screen-2xl nav-block container mx-auto">
+        <div className="navbar px-0 ">
           <div className="navbar-start">
             <div className="dropdown">
               <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -35,7 +55,7 @@ const index = () => {
             <div className="serach-container">
               <div className='hidden md:block'>
                 <label className="input search-input">
-                  <input type="search" id="search-bar"  placeholder="Search" className="  outline-none w-24 md:w-auto" />
+                  <input type="search" id="search-bar" placeholder="Search" className="  outline-none w-24 md:w-auto" />
                   <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <g
                       strokeLinejoin="round"

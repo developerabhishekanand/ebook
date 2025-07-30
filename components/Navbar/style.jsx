@@ -3,7 +3,18 @@ import styled from 'styled-components';
 
 const NavStyle = styled.div`
 &.nav-style {
-padding: 0 30px;
+	padding: 0;
+	&.sticky {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+	
+	.nav-block  {
+		padding: 0 30px;
+	}
+	
 .navbar {
 	> .navbar-start {
 			width: 30%;
