@@ -34,7 +34,7 @@ const index = () => {
             <div className="validator-hint hidden">Enter valid email address</div>
           </div>
           <div className="btn-block">
-            <button className="btn btn-secondary">Secondary</button>
+            <button className="btn btn-secondary">Login</button>
           </div>
         </div>
         <div className="right md:order-2 md:w-1/2">
