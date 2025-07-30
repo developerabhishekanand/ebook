@@ -6,7 +6,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
       <header><Navbar /></header>
-      <main>{children}</main>
+        <main>{children}</main>
       <footer>Footer</footer>
     </>
   );

@@ -1,19 +1,10 @@
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import Layout from "../components/Layout";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import Banner from "../components/Banner";
 
 export default function Home() {
   return (
-    <h1 className="text-3xl bold">Hello nextjs</h1>
+    <Banner />
   );
 }

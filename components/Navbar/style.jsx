@@ -17,8 +17,9 @@ padding: 0 30px;
 		gap: 8px;
 	}
 	.search-input {
-		&:focus {
-			outline: none;
+		&:focus,&:focus-within {
+		    outline-offset: 0;
+			outline: none !important;
 		}
 	}
 }
