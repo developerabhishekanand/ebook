@@ -2,65 +2,65 @@
   {
     "id": 1,
     "name": "Story Book",
-    "title": "Whispers Between the Raindrops A poetic exploration of forgotten memories hidden within the spaces of everyday life—this novel captures fleeting moments of love, loss, and redemption through lyrical storytelling that dances like rain between conversations never spoken aloud.",
+    "title": "Whispers Between the Raindrops A poetic exploration of forgotten memories",
     "price": 0,
     "category": "Free",
-    "image": "../public/images/book1.jpg"
+    "image": "/images/book.jpg"
   },
   {
      "id": 2,
     "name": "Story Book",
-    "title": "Whispers Between the Raindrops A poetic exploration of forgotten memories hidden within the spaces of everyday life—this novel captures fleeting moments of love, loss, and redemption through lyrical storytelling that dances like rain between conversations never spoken aloud.",
+    "title": "Whispers Between the Raindrops A poetic exploration of forgotten memories",
     "price": 0,
     "category": "Free",
-    "image": "../public/images/book1.jpg"
+    "image": "/images/book1.jpg"
   },
   {
      "id": 3,
     "name": "Story Book",
-    "title": "Whispers Between the Raindrops A poetic exploration of forgotten memories hidden within the spaces of everyday life—this novel captures fleeting moments of love, loss, and redemption through lyrical storytelling that dances like rain between conversations never spoken aloud.",
+    "title": "Whispers Between the Raindrops A poetic exploration of forgotten memories",
     "price": 0,
     "category": "Free",
-    "image": "../public/images/book1.jpg"
+    "image": "/images/book2.jpg"
   },
   {
      "id": 4,
     "name": "Story Book",
-    "title": "Whispers Between the Raindrops A poetic exploration of forgotten memories hidden within the spaces of everyday life—this novel captures fleeting moments of love, loss, and redemption through lyrical storytelling that dances like rain between conversations never spoken aloud.",
+    "title": "Whispers Between the Raindrops A poetic exploration of forgotten memories",
     "price": 0,
     "category": "Free",
-    "image": "../public/images/book1.jpg"
+    "image": "/images/book1.jpg"
   },
   {
      "id": 5,
     "name": "Story Book",
-    "title": "Whispers Between the Raindrops A poetic exploration of forgotten memories hidden within the spaces of everyday life—this novel captures fleeting moments of love, loss, and redemption through lyrical storytelling that dances like rain between conversations never spoken aloud.",
+    "title": "Whispers Between the Raindrops A poetic exploration of forgotten memories",
     "price": 0,
     "category": "Free",
-    "image": "../public/images/book1.jpg"
+    "image": "/images/book.jpg"
   },
   {
      "id": 6,
     "name": "Story Book",
-    "title": "Whispers Between the Raindrops A poetic exploration of forgotten memories hidden within the spaces of everyday life—this novel captures fleeting moments of love, loss, and redemption through lyrical storytelling that dances like rain between conversations never spoken aloud.",
+    "title": "Whispers Between the Raindrops A poetic exploration of forgotten memories",
     "price": 0,
     "category": "Free",
-    "image": "../public/images/book1.jpg"
+    "image": "/images/book1.jpg"
   },
   {
      "id": 7,
     "name": "Story Book",
-    "title": "Whispers Between the Raindrops A poetic exploration of forgotten memories hidden within the spaces of everyday life—this novel captures fleeting moments of love, loss, and redemption through lyrical storytelling that dances like rain between conversations never spoken aloud.",
+    "title": "Whispers Between the Raindrops A poetic exploration of forgotten memories",
     "price": 0,
     "category": "Free",
-    "image": "../public/images/book1.jpg"
+    "image": "/images/book2.jpg"
   },
   {
      "id": 8,
     "name": "Story Book",
-    "title": "Whispers Between the Raindrops A poetic exploration of forgotten memories hidden within the spaces of everyday life—this novel captures fleeting moments of love, loss, and redemption through lyrical storytelling that dances like rain between conversations never spoken aloud.",
+    "title": "Whispers Between the Raindrops A poetic exploration of forgotten memories hidden within the spaces of everyday ",
     "price": 100,
     "category": "paid",
-    "image": "../public/images/book1.jpg"
+    "image": "/images/book.jpg"
   }
 ]
