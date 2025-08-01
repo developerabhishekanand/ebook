@@ -1,9 +1,27 @@
 import React, { useState, useEffect } from 'react'
 import NavStyle from "./style"
 import Link from 'next/link'
+import { useLoginModal } from '../../context/LoginModalContext';
+import Login from "../Login";
 
 const index = () => {
   const [sticky, setSticky] = useState(false);
+  const [theme, setTheme ] = useState(false);
+  const { openModal } = useLoginModal();
+
+  useEffect(() => {
+    console.log('use effect called')
+    document.body.classList.add(theme ? 'dark' : 'light');
+
+    if (theme === "dark") {
+      element.classList.add("dark");
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+  },[theme]);
+
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,9 +45,9 @@ const index = () => {
   </>);
 
   return (
-    <NavStyle className={`nav-style shadow-sm bg-base-100
+    <NavStyle className={`nav-style shadow-sm dark:bg-slate-800 dark:text-white bg-base-100
     ${sticky
-        ? "sticky ease-in-out bg-base-200 transition-all"
+        ? "sticky-navbar shadow-md bg-base-200 dark:bg-slate-700 dark:text-white duration-300 transition-all ease-in-out"
         : ""}`}>
       <div className="max-w-screen-2xl nav-block container mx-auto">
         <div className="navbar px-0 ">
@@ -95,7 +113,8 @@ const index = () => {
                 </label>
               </div>
               <div className="sign-in">
-                <a className="btn bg-black text-white p-2 cursor-pointer">Login</a>
+                <button className="btn bg-black text-white p-2 cursor-pointer" onClick={openModal}>Login</button>
+                <Login />
               </div>
             </div>
           </div>
