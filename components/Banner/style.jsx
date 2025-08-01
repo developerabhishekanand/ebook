@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const BannerStyle = styled.div`
-  padding: 40px 30px;
+  padding: 40px 0;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;

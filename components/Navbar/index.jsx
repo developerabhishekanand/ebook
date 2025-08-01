@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import NavStyle from "./style"
-
+import Link from 'next/link'
 
 const index = () => {
   const [sticky, setSticky] = useState(false);
@@ -20,10 +20,10 @@ const index = () => {
     }
   }, [])
   const navItems = (<>
-    <li><a>Home</a></li>
-    <li><a>Course</a></li>
-    <li><a>Contact</a></li>
-    <li><a>About</a></li>
+    <li><Link href="/">Home</Link></li>
+    <li><Link href="/course">Course</Link></li>
+    <li><Link href="/contact">Contact</Link></li>
+    <li><Link href="/about">About</Link></li>
   </>);
 
   return (

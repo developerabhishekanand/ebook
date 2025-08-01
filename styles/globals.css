@@ -74,3 +74,12 @@ header {
   position: relative;
   z-index: 100;
 }
+
+main {
+  min-height: 600px;
+  padding: 0 30px;
+}
+footer {
+  border-top: 10px solid rgb(238, 110, 87);
+  background: rgba(238 110 87 / 20%);
+}
