@@ -1,12 +1,11 @@
 // components/LoginModal.tsx
 'use client';
 
-import { useState } from 'react';
 import { useLoginModal } from "../../context/LoginModalContext";
 import Link from 'next/link';
 import { useForm } from 'react-hook-form';
 
-export default function LoginModal() {
+export const LoginModal = ()=> {
   const { isOpen, closeModal } = useLoginModal();
 
 

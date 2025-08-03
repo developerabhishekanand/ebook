@@ -1,4 +1,4 @@
-import {ImageWrapper,StyledImage} from "./style";
+import { ImageWrapper } from "./style";
 import Image from 'next/image';
 
 

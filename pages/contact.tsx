@@ -1,8 +1,8 @@
-import React,{useState} from 'react'
+import React from 'react'
 import Link from 'next/link';
 import { useForm } from 'react-hook-form';
 
-const contact = () => {
+const Contact = () => {
     const {
     register,
     handleSubmit,
@@ -63,4 +63,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact
