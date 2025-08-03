@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 const About = () => {
   return (
     <div>
-      <h3>About page </h3>
+      <h3>under development </h3>
     </div>
   )
 }
